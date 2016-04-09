@@ -1,0 +1,25 @@
+{
+    "name": "Form Builder",
+    "descriptions": "Eases way to wrote for build any from in PHP",
+    "keywords": [ "Form",  "Builder" ],
+    "license": "General Public License",
+    "author":[
+        {
+           "name": "Harrieanto",
+           "email": "harrieanto31@yahoo.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Applications\\Provider\\Package\\Forms\\": "src/form"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Applications\\Provider\\Package\\Forms\\Tests\\": "tests"
+        }
+    },
+    "require": {
+        "php": ">=5.4"
+    }
+}
